@@ -4,7 +4,7 @@
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width'>
   <title>Privacy Policy - CPR Recorder</title>
-  <style> body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; padding:1em; } </style>
+  <style> body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; padding:1em; max-width: 720px; } li { margin-bottom: 0.35em; } </style>
 </head>
 <body>
 <strong>Privacy Policy</strong>
@@ -15,34 +15,44 @@
 
 <p><strong>Information Collection and Use</strong></p>
 
-<p><strong>Health Data</strong></p>
-<p>CPR Recorder is a CPR training and recording app. The app accesses and stores the following health-related data on your device:</p>
+<p><strong>Health and session data stored on your device</strong></p>
+<p>CPR Recorder is a CPR training and recording app. The app may store the following on your device:</p>
 <ul>
-  <li><strong>CPR session records</strong> – including session identifiers, start and end times, duration of practice sessions, and timestamps</li>
-  <li><strong>CPR event data</strong> – messages and timestamps recorded during a CPR session (e.g. compression prompts, timing cues)</li>
+  <li><strong>CPR session records</strong> – including identifiers you assign (e.g. patient or case name), start and end times, duration, and related fields you enter (such as age and gender if you provide them)</li>
+  <li><strong>CPR event data</strong> – messages and timestamps recorded during a session (e.g. rhythm checks, shocks, medications, CPR cycles)</li>
 </ul>
-<p><strong>How we use Health Data:</strong> This data is used solely to provide and improve the CPR recording and training features within the app (e.g. displaying your session history, duration, and event log).</p>
-<p><strong>Where Health Data is stored:</strong> All Health Data described above is stored only on your device in the app’s local database. I do not collect, transmit, or have access to your Health Data on my servers.</p>
+<p><strong>How we use this data:</strong> This data is used to provide the recording features within the app (e.g. session history, summaries, timelines, and export).</p>
+<p><strong>Where this data is stored:</strong> This full session and event data is stored in the app’s local database on your device. I do not operate my own servers to store your full CPR records.</p>
 
-<p><strong>Other data on your device</strong></p>
-<p>Any other information you enter or generate in the app (such as exported file names or in-app preferences) is retained on your device and is not collected by me.</p>
+<p><strong>Analytics and diagnostics (third parties)</strong></p>
+<p>The app uses Google Firebase services. When you <strong>save a completed CPR record</strong>, the app may send a <strong>single analytics event</strong> to <strong>Google Analytics for Firebase</strong>. This event is designed <strong>not</strong> to include your record title/patient name or the full text of your CPR timeline.</p>
+<p>The analytics event may include, for example:</p>
+<ul>
+  <li>Aggregated clinical-style metrics derived from the session (e.g. initial rhythm category, counts of shocks or CPR cycles, time-to-first metrics in seconds, total CPR duration in seconds, session duration in seconds, outcome category where applicable)</li>
+  <li>Optional fields you entered in the app (e.g. age and gender), and an approximate <strong>country/region</strong> derived from your device language or SIM settings (not precise GPS location)</li>
+</ul>
+<p>Firebase may also process device and usage data according to Google’s policies. For crashes, <strong>Firebase Crashlytics</strong> may receive diagnostic information (e.g. stack traces) to help fix errors.</p>
+<p>For how Google uses data, see the links under “Third-party services” below.</p>
 
 <div>
-  <p>The app does use third-party services that may collect information used to identify you.</p>
+  <p>The app uses third-party services that may collect information as described in their policies:</p>
   <p>Link to the privacy policy of third-party service providers used by the app:</p>
   <ul>
     <li><a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer">Google Play Services</a></li>
     <li><a href="https://firebase.google.com/policies/analytics" target="_blank" rel="noopener noreferrer">Google Analytics for Firebase</a></li>
-    <li><a href="https://firebase.google.com/support/privacy/" target="_blank" rel="noopener noreferrer">Firebase Crashlytics</a></li>
+    <li><a href="https://firebase.google.com/support/privacy/" target="_blank" rel="noopener noreferrer">Firebase (including Crashlytics)</a></li>
   </ul>
 </div>
+
+<p><strong>Advertising ID</strong></p>
+<p>The app may declare access to the advertising ID where required by the platform or bundled libraries. CPR Recorder is not an advertising-supported app; consult Google Play’s app information and your device settings to manage ad-related identifiers.</p>
 
 <p><strong>Log Data</strong></p>
 <p>Whenever you use my Service, in the case of an error in the app I may receive data and information (through third-party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics. This data is used to fix bugs and improve the stability of the Service.</p>
 
 <p><strong>Cookies</strong></p>
 <p>Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.</p>
-<p>This Service does not use these “cookies” explicitly. However, the app may use third-party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.</p>
+<p>This Service does not use these “cookies” explicitly in the app UI. However, the app may use third-party code and libraries that use “cookies” or similar technologies to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.</p>
 
 <p><strong>Service Providers</strong></p>
 <p>I may employ third-party companies and individuals due to the following reasons:</p>
@@ -65,7 +75,7 @@
 
 <p><strong>Changes to This Privacy Policy</strong></p>
 <p>I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page.</p>
-<p>This policy is effective as of 2023-01-08. Last updated: 2026-03-17.</p>
+<p>This policy is effective as of 2023-01-08. Last updated: 2026-03-19.</p>
 
 <p><strong>Contact Us</strong></p>
 <p>If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at <a href="mailto:cpr.recorder@gmail.com">cpr.recorder@gmail.com</a>.</p>
